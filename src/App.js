@@ -6,6 +6,7 @@ import Loader from "./components/UI/Loader";
 import { useSelector, useDispatch } from "react-redux";
 import { cartFetch, cartPost } from "./store/store";
 import Error from "./components/UI/Error";
+
 var initial = true;
 
 function App() {
